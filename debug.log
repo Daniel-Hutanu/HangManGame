@@ -1,6 +1,0 @@
-[0128/162027.916:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
-[0129/134727.350:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
-[0129/140040.582:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
-[0129/140040.583:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
-[0129/140040.583:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
-[0129/140040.583:ERROR:exception_snapshot_win.cc(99)] thread ID 8624 not found in process
