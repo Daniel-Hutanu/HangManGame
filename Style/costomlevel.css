@@ -275,3 +275,44 @@ body{
         background-color: rgb(110, 178, 230);
     }
 }
+
+@media only screen and (max-width:1100px){
+    .fieldtitle>img{
+        display: none;
+    }
+    .fieldtitle>p{
+        margin-left: 30px;
+    }
+    .letter{
+        width: 40px;
+        height: 40px;
+    }
+    .keyboard{
+        height: 260px;
+        margin-left: 20px;
+    }
+    .hangman{
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width:950px){
+    .hangman{
+        display: block;
+        margin-left: 200px;
+    }
+    .letter{
+        width: 35px;
+        height: 35px;
+    }
+    .keyboard{
+        margin-left: -20px;
+        width: 500px;
+    }
+    .word{
+        margin-top: 220px;
+        margin-left: -50px;
+    }
+    .lineword{
+        margin-left: -50px;
+    }
+}
