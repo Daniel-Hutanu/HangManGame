@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to right, rgb(144, 144, 194), rgb(47, 47, 177));
+    background: rgb(47, 47, 177);
 }
 .back{
     position: absolute;
@@ -314,5 +314,69 @@ body{
     }
     .lineword{
         margin-left: -50px;
+    }
+}
+@media only screen and (max-width:375px){
+    .fieldtitle>p{
+        font-size: 30px;
+        margin-right: 30px;
+    }
+    .fieldtitle{
+        display: flex;
+        justify-content: center;
+    }
+    .hangman{
+        margin-left: -10px;
+    }
+    .stand{
+        width: 270px;
+        height: 300px;
+    }
+    #man{
+        height: 300px;
+        width: 170px;
+    }
+    #linestand{
+        height: 20px;
+    }
+    #head{
+        margin-top: 20px;
+    }
+    #body{
+        margin-top: 100px;
+    }
+    #hand1{
+        margin-top: 125px;
+    }
+    #hand2{
+        margin-top: 125px;
+    }
+    #leg1{
+        margin-top: 243px;
+    }
+    #leg2{
+        margin-top: 243px;
+    }
+    .keyboard{
+        margin: 60px 0 0 20px;
+        width: 330px;
+        height: 180px;
+    }
+    .letter{
+        width: 30px;
+        height: 30px;
+        margin: 5px 5px 5px 5px;
+    }
+    .word{
+        margin-top: 100px;
+    }
+    .word>p{
+        font-size: 30px;
+    }
+    .lineword{
+        margin-top: -115px;
+    }
+    .lineword>p{
+        font-size: 40px;
     }
 }
