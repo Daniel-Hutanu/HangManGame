@@ -322,7 +322,8 @@ body{
         margin-left: 60px;
     }
     .hangman{
-        margin-left: -10px;
+        margin-left: 0px;
+        margin-top: -40px;
     }
     .stand{
         width: 270px;
@@ -354,7 +355,7 @@ body{
         margin-top: 243px;
     }
     .keyboard{
-        margin: 60px 0 0 20px;
+        margin: 40px 0 0 20px;
         width: 330px;
         height: 180px;
     }
@@ -364,7 +365,7 @@ body{
         margin: 5px 5px 5px 5px;
     }
     .word{
-        margin-top: 100px;
+        margin-top: 65px;
     }
     .word>p{
         font-size: 30px;
@@ -374,5 +375,11 @@ body{
     }
     .lineword>p{
         font-size: 40px;
+    }
+    .win{
+        width: 250px;
+    }
+    #lose>p{
+        margin-top: 20px;
     }
 }
