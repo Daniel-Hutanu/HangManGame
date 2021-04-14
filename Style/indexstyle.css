@@ -1,3 +1,4 @@
+
 .title{
     font-family: "Open Sans";
     font-size: 60px;
@@ -31,9 +32,12 @@ img{
     width: 200px;
     height: 200px;
     margin: 0 0 0 50px;
+    transform: rotate(7deg);
+
 }
 .content{
     display: flex;
+    margin-bottom: 100px;
 }
 .description{
     color: rgb(218, 187, 187);
@@ -46,9 +50,12 @@ img{
     color: red;
 }
 .buttongame{
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
+    position: absolute; 
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 .playgame{
     background-color: #f00;
@@ -69,7 +76,118 @@ a{
     background-color: rgb(137, 137, 209);
     transition: 1s background-color;
 }
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 650px;
+    overflow: hidden;
+}
 
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: showcircles 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles>.circle-1{
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles>.circle-2{
+    left: 10%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles>.circle-3{
+    left: 70%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 4s;
+}
+
+.circles>.circle-4{
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles>.circle-5{
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles>.circle-6{
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles>.circle-7{
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles>.circle-8{
+    left: 50%;
+    width: 35px;
+    height: 35px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles>.circle-9{
+    left: 20%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 2s;
+    animation-duration: 25s;
+}
+
+.circles>.circle-10{
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+@keyframes showcircles {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
 @media only screen and (max-width:1100px){
     img{
         width: 250px;
@@ -79,6 +197,9 @@ a{
 @media only screen and (max-width:800px){
     .content{
         display: block;
+    }
+    .circles{
+        display: none;
     }
     img{
         display: block;
@@ -90,7 +211,7 @@ a{
         margin: 80px 30px 50px 30px;
     }
     .buttongame{
-        margin-top: 140px;
+        margin-top: 0px;
         margin-bottom: 40px;
     }
 }
@@ -109,7 +230,7 @@ a{
         margin: 80px 30px 50px 30px;
     }
     .buttongame{
-        margin-top: 140px;
+        margin-top: 0px;
         margin-bottom: 40px;
     }
 }
