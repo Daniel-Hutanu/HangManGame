@@ -185,10 +185,10 @@ body{
 .word{
     display: flex;
     justify-content: center;
+    margin-top: 70px;
 }
-.word > p{
-    font-size: 60px;
-    margin-left: 20px;
+.letter-container> p{
+    font-size: 50px;
     font-weight: 500;
     opacity: 0;
 }
@@ -206,7 +206,7 @@ body{
 .win{
     height: 200px;
     width: 400px;
-    margin: auto;
+    margin: 100px auto;
     border: 7px double #ffff00;
     display: none;
 }
@@ -264,6 +264,16 @@ body{
     font-family: consolas;
     height: 10ch;
     transition: background-color .5s;
+}
+.letter-container{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 10px;
 }
 @keyframes type{
     0%{
