@@ -303,6 +303,7 @@ function win1(){
         document.getElementById("hangman").style.display="none";
     }
 }
+
 function win2(){
     a++;
     if(a==6){
@@ -311,6 +312,37 @@ function win2(){
     }
 }
 
+function win4(){
+    a++;
+    if(a==7){
+        document.getElementById("win").style.display="block";
+        document.getElementById("hangman").style.display="none";
+    }
+}
+
+function win6(){
+    a++;
+    if(a==10){
+        document.getElementById("win").style.display="block";
+        document.getElementById("hangman").style.display="none";
+    }
+}
+
+function win8(){
+    a++;
+    if(a==9){
+        document.getElementById("win").style.display="block";
+        document.getElementById("hangman").style.display="none";
+    }
+}
+
+function win5(){
+    a++;
+    if(a==8){
+        document.getElementById("win").style.display="block";
+        document.getElementById("hangman").style.display="none";
+    }
+}
 //lose
 
 var head = document.getElementById("head");

@@ -75,20 +75,15 @@
     margin-top: 30px;
 }
 .textfield{
-    font-size: 23px;
+    font-size: 32px;
     color: rgb(25, 0, 255);
     text-align: center;
     margin-left: 30px;
+    margin-top: 43px;
     font-weight: 700;
     font-family: sans-serif;
-    line-height: 36px;
+    line-height: 42px;
 }
-.textfield>span{
-    font-family: 'Times New Roman';
-    letter-spacing: .75px;
-    color: black;
-}
-
 @keyframes showcircles {
 
     0%{

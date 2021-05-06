@@ -1,0 +1,41 @@
+Nivelul 1: -- Subiect: Varsta
+           -- Cuvant: ETATE
+           -- Litere: 5
+           -- WIN la 2 litere corecte
+
+Nivelul 2: -- Subiect: Defect
+           -- Cuvant: METEAHNĂ
+           -- Litere: 8
+           -- WIN la 6 litere corecte
+
+Nivelul 3: -- Subiect: Zgomot
+           -- Cuvant: RUMOARE
+           -- Litere: 7
+           -- WIN la 6 litere corecte (se foloseste win2())
+
+Nivelul 4: -- Subiect: Lipsa
+           -- Cuvant: HOMLEȘI
+           -- Litere: 7
+           -- WIN la 7 litere corecte
+
+Nivelul 5: -- Subiect: Gramatica
+           -- Cuvant: Paradigmă
+           -- Litere: 9
+           -- WIN la 8 litere corecte
+
+Nivelul 6: -- Subiect: Caritate
+           -- Cuvant: Filantropie
+           -- Litere: 11
+           -- WIN la 10 litere corecte
+
+Nivelul 7: -- Subiect: Amanare
+           -- Cuvant:
+           -- Litere:
+           -- WIN la
+
+Nivelul 8: -- Subiect: Enzima
+           -- Cuvant: Transaminaza
+           -- Litere: 12
+           -- WIN la 9 litere corecte
+
+Nivelul 9: --Subiect:

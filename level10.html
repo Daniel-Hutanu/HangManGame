@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hangman Game | Level 3</title>
+        <title>Hangman Game | Level 10</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link rel="icon" href="Images/logo.jpg">
         <link rel="stylesheet" href="Style/costomlevel.css">
@@ -12,11 +12,10 @@
             <a href="levelpage.html"><i class="fas fa-arrow-alt-circle-left"></i></a>
         </div>
         <div class="numbertitle">
-            <h1>3</h1>
+            <h1>10</h1>
         </div>
         <div class="fieldtitle">
-            <p>Subiect: Zgomot</p>
-            <img src="Images/zgomot.jpg">
+            <h1 class="title">Subiect</h1>
         </div>
         <div class="hangman" id="hangman">
             <div class="stand">
@@ -78,20 +77,36 @@
             </div>
             </div>
         </div>
-        <div class="word" style="letter-spacing: -2px;">
-            <p class="R">R</p><p class="U">U</p><p class="M">M</p><p class="O">O</p>
-            <p class="A">A</p><p class="R">R</p><p class="E">E</p>
-        </div>
-        <div class="lineword" style="letter-spacing: 3px;">
-            <p>_</p><p>_</p><p>_</p><p>_</p><p>_</p><p>_</p><p>_</p>
+        <div class="word">
+            <div class="letter-container">
+                <p class="H">H</p>
+            </div>
+            <div class="letter-container">
+                <p class="O">O</p>
+            </div>
+            <div class="letter-container">
+                <p class="M">M</p>
+            </div>
+            <div class="letter-container">
+                <p class="L">L</p>
+            </div>
+            <div class="letter-container">
+                <p class="E">E</p>
+            </div>
+            <div class="letter-container">
+                <p class="SS">Ș</p>
+            </div>
+            <div class="letter-container">
+                <p class="I">I</p>
+            </div>
         </div>
         <div class="win" id="win">
-            <p>Felicitari! Ai trecut nivelul cu succes!</p>
-            <a href="level4.html"><button class="winbutton"><span>Nivelul urmator</span></button></a>
+            <p>Felicitari! Ai terminat jocul cu succes!</p>
+            <a href="levelpage.html"><button class="winbutton"><span>Inapoi la meniu</span></button></a>
         </div>
         <div class="win" id="lose" style="border: 7px double #f00;">
             <p>Ups... se pare ca va trebui sa încerci din nou!</p>
-            <a href="level3.html"><button class="winbutton" style="background-color: rgb(14, 92, 10);"><span>Reîncearcă</span></button></a>
+            <a href="level10.html"><button class="winbutton" style="background-color: rgb(14, 92, 10);"><span>Reîncearcă</span></button></a>
         </div>
         <script src="Jsfiles/game.js"></script>
     </body>

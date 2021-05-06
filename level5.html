@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hangman Game | Level 3</title>
+        <title>Hangman Game | Level 5</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link rel="icon" href="Images/logo.jpg">
         <link rel="stylesheet" href="Style/costomlevel.css">
@@ -12,11 +12,10 @@
             <a href="levelpage.html"><i class="fas fa-arrow-alt-circle-left"></i></a>
         </div>
         <div class="numbertitle">
-            <h1>3</h1>
+            <h1>5</h1>
         </div>
         <div class="fieldtitle">
-            <p>Subiect: Zgomot</p>
-            <img src="Images/zgomot.jpg">
+            <h1 class="title">Gramatică</h1>
         </div>
         <div class="hangman" id="hangman">
             <div class="stand">
@@ -38,38 +37,38 @@
             </div>
             <div class="keyboard">
             <div class="linekey">
-                <button class="letter" id="BtnA" onclick="showA(); win2();">A</button>
-                <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">Ă</button>
+                <button class="letter" id="BtnA" onclick="showA(); win5();">A</button>
+                <button class="letter" id="BtnAA" onclick="showAA(); win5();">Ă</button>
                 <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">Â</button>
                 <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">B</button>
                 <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">C</button>
-                <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">D</button>
-                <button class="letter" id="BtnE" onclick="showE(); win2();">E</button>
+                <button class="letter" id="BtnD" onclick="showD(); win5();">D</button>
+                <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">E</button>
                 <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">F</button>
             </div>
             <div class="linekey">
-                <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">G</button>
+                <button class="letter" id="BtnG" onclick="showG(); win5();">G</button>
                 <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">H</button>
-                <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">I</button>
+                <button class="letter" id="BtnI" onclick="showI(); win5();">I</button>
                 <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">Î</button>
                 <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">J</button>
                 <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">K</button>
                 <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">L</button>
-                <button class="letter" id="BtnM" onclick="showM(); win2();">M</button>
+                <button class="letter" id="BtnM" onclick="showM(); win5();">M</button>
             </div>
             <div class="linekey">
                 <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">N</button>
-                <button class="letter" id="BtnO" onclick="showO(); win2();">O</button>
-                <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">P</button>
+                <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">O</button>
+                <button class="letter" id="BtnP" onclick="showP(); win5();">P</button>
                 <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">Q</button>
-                <button class="letter" id="BtnR" onclick="showR(); win2();">R</button>
+                <button class="letter" id="BtnR" onclick="showR(); win5();">R</button>
                 <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">S</button>
                 <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">Ș</button>
                 <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">T</button>
             </div>
             <div class="linekey">
                 <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">Ț</button>
-                <button class="letter" id="BtnU" onclick="showU(); win2();">U</button>
+                <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">U</button>
                 <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">V</button>
                 <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">W</button>
                 <button class="letter" onclick="showman();this.style.opacity='0.3'; this.style.pointerEvents='none'">X</button>
@@ -78,20 +77,42 @@
             </div>
             </div>
         </div>
-        <div class="word" style="letter-spacing: -2px;">
-            <p class="R">R</p><p class="U">U</p><p class="M">M</p><p class="O">O</p>
-            <p class="A">A</p><p class="R">R</p><p class="E">E</p>
-        </div>
-        <div class="lineword" style="letter-spacing: 3px;">
-            <p>_</p><p>_</p><p>_</p><p>_</p><p>_</p><p>_</p><p>_</p>
+        <div class="word">
+            <div class="letter-container">
+                <p class="P">P</p>
+            </div>
+            <div class="letter-container">
+                <p class="A">A</p>
+            </div>
+            <div class="letter-container">
+                <p class="R">R</p>
+            </div>
+            <div class="letter-container">
+                <p class="A">A</p>
+            </div>
+            <div class="letter-container">
+                <p class="D">D</p>
+            </div>
+            <div class="letter-container">
+                <p class="I">I</p>
+            </div>
+            <div class="letter-container">
+                <p class="G">G</p>
+            </div>
+            <div class="letter-container">
+                <p class="M">M</p>
+            </div>
+            <div class="letter-container">
+                <p class="AA">Ă</p>
+            </div>
         </div>
         <div class="win" id="win">
             <p>Felicitari! Ai trecut nivelul cu succes!</p>
-            <a href="level4.html"><button class="winbutton"><span>Nivelul urmator</span></button></a>
+            <a href="level6.html"><button class="winbutton"><span>Nivelul urmator</span></button></a>
         </div>
         <div class="win" id="lose" style="border: 7px double #f00;">
             <p>Ups... se pare ca va trebui sa încerci din nou!</p>
-            <a href="level3.html"><button class="winbutton" style="background-color: rgb(14, 92, 10);"><span>Reîncearcă</span></button></a>
+            <a href="level5.html"><button class="winbutton" style="background-color: rgb(14, 92, 10);"><span>Reîncearcă</span></button></a>
         </div>
         <script src="Jsfiles/game.js"></script>
     </body>
