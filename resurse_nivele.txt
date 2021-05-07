@@ -28,10 +28,10 @@ Nivelul 6: -- Subiect: Caritate
            -- Litere: 11
            -- WIN la 10 litere corecte
 
-Nivelul 7: -- Subiect: Amanare
-           -- Cuvant:
-           -- Litere:
-           -- WIN la
+Nivelul 7: -- Subiect: Frumusete
+           -- Cuvant: Demoazelă
+           -- Litere: 9
+           -- WIN la 8 litere (se foloseste Win5())
 
 Nivelul 8: -- Subiect: Enzima
            -- Cuvant: Transaminaza

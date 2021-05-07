@@ -6,6 +6,7 @@
     font-size: 60px;
     font-weight: 600;
     letter-spacing: 0.75px;
+    text-shadow: 2px 2px 3px #f00;
 }
 .rowlevel{
     display: flex;

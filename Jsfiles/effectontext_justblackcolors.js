@@ -24,4 +24,4 @@ setInterval(function() {
                 }
         whichLetter=Math.floor((Math.random() * 70));;
         } else if (whichLetter > sSpan + (trailAmount - 1)) whichLetter = 0;
-}, 2)
+}, 10)
