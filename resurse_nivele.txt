@@ -43,4 +43,7 @@ Nivelul 9: -- Subiect: Arma
            -- Litere: 9
            -- WIN la 8 litere (se foloseste Win5())
 
-Nivelul 10: -- Subiect:
+Nivelul 10: -- Subiect: Bijuterii
+            -- Cuvant: Giuvaiericale
+            -- Litere: 13
+            -- WIN la 9 litere corecte (se foloseste Win8())
