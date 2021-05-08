@@ -38,4 +38,9 @@ Nivelul 8: -- Subiect: Enzima
            -- Litere: 12
            -- WIN la 9 litere corecte
 
-Nivelul 9: --Subiect:
+Nivelul 9: -- Subiect: Arma
+           -- Cuvant: Halebardă
+           -- Litere: 9
+           -- WIN la 8 litere (se foloseste Win5())
+
+Nivelul 10: -- Subiect:
